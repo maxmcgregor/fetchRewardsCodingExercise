@@ -1,0 +1,14 @@
+package com.fetchcodingexercise.entities;
+
+import java.time.LocalDateTime;
+
+//@Entity <-- tag would be uncommented if we were using a sustainable data store
+public class Transaction {
+	
+	private Payer payer;
+	
+	private LocalDateTime timestamp;
+	
+	
+
+}
